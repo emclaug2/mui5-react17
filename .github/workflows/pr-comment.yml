@@ -5,6 +5,7 @@ on:
       - 'master'
       - 'dev'
       - 'release/**'
+      - 'release/6.0.0'
       - '!hotfix/**'
 
 jobs:
