@@ -1,4 +1,4 @@
-name: 'Comment on PR'
+name: 'Comment on PR 1'
 on:
   pull_request:
     branches:
@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     name: comment PR if needed
     steps:
-      - name: Checkout
+      - name: Checkout dd
         uses: actions/checkout@v3
       - name: Comment PR
         uses: thollander/actions-comment-pull-request@v1
