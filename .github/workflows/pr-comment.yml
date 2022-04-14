@@ -2,8 +2,8 @@ name: 'Comment on PR'
 on:
   pull_request:
     branches:
-      - 'master'
-      - 'dev'
+      - master
+      - dev
       - '!hotfix/**'
 
 jobs:
